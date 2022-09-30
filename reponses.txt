@@ -1,0 +1,55 @@
+Valentin MERESSE
+
+1) Quelles sont les branches disponibles ?
+gh-pages
+
+Exercice 2
+
+2) Quel est le numéro de la dernière pull request ?
+#1028
+
+3) Combien de commit contient la pull request #550 ?
+2
+
+4) Quel est le numéro, combien de commit, et quel est l’auteur dans la pull request du
+commit de merge 8061f2f ?
+
+#549 
+Josh SOREF
+2 commit
+
+Exercice 3
+
+5) Quelle est la commande pour revenir à la version précédente sur le fichier “index.html” ?
+
+git revert
+
+6) Un plugin javascript a été supprimé dans le
+commit b30306e502b99aabab256a5d2f68e8d50ba5072a, quel est le nom du plugin
+supprimé ?
+
+auto-complete.min.js
+
+7) Quelle est la commande pour voir les fichiers modifiés dans ce commit ?
+
+git diff --staged b30306e502b99aabab256a5d2f68e8d50ba5072a
+
+
+8) Quelle est la commande pour récupérer le plugin supprimé ?
+
+git reset auto-complete.min.js
+
+Exercice 4
+
+9) Le dossier “_licenses” contient les licences qui sont affichées sur le site. Vous allez ajouter
+une license à votre nom (par exemple “theau-debureau-1.0.txt”) et commiter le résultat.
+
+Ce placer dans le fichier "_licenses" en local puis créer son fichier, puis sur l'interface git git add Valentin-meresse-1.0.txt puis git commit -m "ajout de la licence Valentin MERESSE"
+
+10) Comment vérifier si vous êtes à jour avec le dépôt distant?
+
+git status
+
+11) Envoyer votre dernier commit
+
+git push
